@@ -425,7 +425,7 @@ transform-origin: 90% 50%;
 }
 
 @media (max-width: 600px){
-   .cont1 .main_text {height: 40vh;}
+   .cont1 .main_text {height: 45vh;}
     .cont2 .main_text .desc p {font-size: 2.8vw;}
     
     .cont3 .port figcaption {font-size: 2.8vw;}
