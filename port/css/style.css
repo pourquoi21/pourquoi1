@@ -414,6 +414,7 @@ transform-origin: 90% 50%;
 @media (max-width: 768px){
     .top a {width: 70px; height: 70px; padding: 20px 0 25px 0; font-size: 20px;}
     .cont1 div:nth-child(3) {font-size: 2vw;}
+    .cont2 .main_text .desc p {font-size: 2.5vw; line-height: 5vw;}
     .cont3 .port > div {height: 60vw;}
     .cont3 .port > div > div {float: none; width: 100%; padding: 0 7vw;}
     .cont3 .port > div > div.port_desc {display: none;}
@@ -421,7 +422,7 @@ transform-origin: 90% 50%;
     .cont3 .port figure figcaption {display: block; font-size: 2.5vw; text-align: center;}
     .cont3 .port figure figcaption span {display: block; font-size: 2vw;}
   
-    .cont2 .main_text .desc p {font-size: 2.5vw; line-height: 5vw;}
+    
 }
 
 @media (max-width: 600px){
@@ -436,7 +437,7 @@ transform-origin: 90% 50%;
    .top a {width: 50px; height: 50px; padding: 12px 0 20px 0; font-size: 18px;}
    .cont2 .main_text .desc p {font-size: 3.2vw; line-height: 5.3vw;}
    .cont3 .port > div {height: 65vw;}
-   .cont3 .port figure figcaption {font-size: 2.8vw;}
-   .cont3 .port figure figcaption span a {font-size: 2.8vw;}
+   .cont3 .port figure figcaption {font-size: 3.2vw;}
+   .cont3 .port figure figcaption span a {font-size: 3.2vw;}
 }
 
