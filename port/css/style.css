@@ -314,7 +314,7 @@ transform-origin: 90% 50%;
 .cont2 .main_text h2 {font-size: 4vw; color: #7681b6; font-weight: 500;}
 .cont2 .main_text h2 em {font-size: 5vw; font-family: 'PyeongChangPeace-Bold'; color: #45e0ba;}
 .cont2 .main_text .desc {margin: 4vh 0 0 0;}
-.cont2 .main_text .desc p {font-size: 1.5vw; font-family: 'EnvironmentR'; color: #3a4681; margin: 0 0 50px 0;}
+.cont2 .main_text .desc p {font-size: 1.5vw; line-height: 3vw; font-family: 'EnvironmentR'; color: #3a4681; margin: 0 0 50px 0;}
 .cont2 .main_text .desc p em {display: block; font-weight: 600;}
 .cont2 .main_text .desc .desc1 {transform: translateY(30px); opacity: 0; transition: .5s;}
 .cont2 .main_text .desc .desc2 {transform: translateY(30px); opacity: 0; transition: .5s; transition-delay: .5s}
@@ -418,7 +418,7 @@ transform-origin: 90% 50%;
     .cont3 .port figure figcaption {display: block; text-align: center;}
     .cont3 .port figure figcaption span {display: block;}
   
-    .cont2 .main_text .desc p {font-size: 2.5vw;}
+    .cont2 .main_text .desc p {font-size: 2.5vw; line-height: 5vw;}
     
     .cont3 .port > div > div > p {font-size: 2.5vw;}
     .cont3 .port > div > div > p {font-size: 2vw;}   
