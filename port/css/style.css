@@ -331,7 +331,7 @@ transform-origin: 90% 50%;
 .cont3 .port > div > div.port_desc {padding: 5vw 1vw; box-sizing: border-box;}
 .cont3 .port .port2 > div.port_desc {padding: 2vw 1vw;}
 .cont3 .port > div > div {text-align: left; float: left; width: 50%; margin: 0 auto; padding: 0 2vw; box-sizing: border-box;}
-.cont3 .port > div > div > p {font-size: 1.3vw; line-height: 3vw; font-family: 'EnvironmentR'; color: #3a4681; padding: 0 0 2vw 0;}
+.cont3 .port > div > div > p {font-size: 1.5vw; line-height: 3vw; font-family: 'EnvironmentR'; color: #3a4681; padding: 0 0 2vw 0;}
 .cont3 .port > div > div > span a {font-size: 1.2vw; padding: .8vw 1.5vw; border-radius: 10px; background: #7681b6; color: #fff; text-transform: uppercase; transition: .5s;}
 .cont3 .port > div > div > span a:hover {box-shadow: inset 300px 0 rgba(0,0,0,0.2);}
 .cont3 h2 {font-family: 'Montserrat', sans-serif; font-size: 4vw; color: #7681b6; font-weight: 500;}
