@@ -408,7 +408,7 @@ transform-origin: 90% 50%;
     .cont2 .main_text .desc p {font-size: 2vw;}
     .cont3 .port > div {height: 35vw;}
     .cont3 .port > div > div > p {font-size: 2vw;}
-}
+    .cont3 .port2 > div > div.port_desc {padding: 2vw 1vw;}
 
 @media (max-width: 768px){
     .top a {width: 70px; height: 70px; padding: 20px 0 25px 0; font-size: 20px;}
