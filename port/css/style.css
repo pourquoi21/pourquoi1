@@ -300,7 +300,7 @@ transform-origin: 90% 50%;
 .cont1 .main_text span em {font-family: 'PyeongChangPeace-Bold'; font-size: 7vw; display: block; color: #fff7f9; margin: 3vw 0 0 2vw;}
 
 /* 컨텐츠 영역1-스크롤 */
-.cont1 div:nth-child(3) {text-align: center; font-size: 1.3vw; color: #befbec; animation: updown .8s infinite ease-in-out;}
+.cont1 div:nth-child(3) {text-align: center; font-family: 'Montserrat', sans-serif; font-size: 1.3vw; color: #befbec; animation: updown .8s infinite ease-in-out;}
 .cont1 div:nth-child(3) span i {display: block;}
 
 @keyframes updown {
@@ -330,15 +330,15 @@ transform-origin: 90% 50%;
 .cont3 .port > div {width: 100%; height: 30vw; padding: 2vw 0 0 0;}
 .cont3 .port > div > div.port_desc {padding: 5vw 1vw; box-sizing: border-box;}
 .cont3 .port > div > div {text-align: left; float: left; width: 50%; margin: 0 auto; padding: 0 2vw; box-sizing: border-box;}
-.cont3 .port > div > div > p {font-size: 1.3vw; font-family: 'EnvironmentR'; color: #3a4681; padding: 0 0 2vw 0;}
+.cont3 .port > div > div > p {font-size: 1.3vw; line-height: 3vw; font-family: 'EnvironmentR'; color: #3a4681; padding: 0 0 2vw 0;}
 .cont3 .port > div > div > span a {font-size: 1.2vw; padding: .8vw 1.5vw; border-radius: 10px; background: #7681b6; color: #fff; text-transform: uppercase; transition: .5s;}
 .cont3 .port > div > div > span a:hover {box-shadow: inset 300px 0 rgba(0,0,0,0.2);}
-.cont3 h2 {font-size: 4vw; color: #7681b6; font-weight: 500;}
+.cont3 h2 {font-family: 'Montserrat', sans-serif; font-size: 4vw; color: #7681b6; font-weight: 500;}
 .cont3 h2 em {font-size: 5vw; font-family: 'PyeongChangPeace-Bold'; color: #45e0ba;}
 .cont3 .port > div {box-sizing: border-box;}
 .cont3 .port figcaption {display: none; font-size: 1.3vw; font-family: 'EnvironmentR'; color: #3a4681; padding: 1vw 0 0;}
 .cont3 .port figcaption span {margin: 2vw 0 0;}
-.cont3 .port figcaption span a {font-size: 1.2vw; padding: .8vw 1.5vw; border-radius: 10px; background: #7681b6; color: #fff; text-transform: uppercase; transition: .5s;  font-family: 'Montserrat', sans-serif;}
+.cont3 .port figcaption span a {font-size: 1.2vw; padding: .8vw 1.5vw; font-family: 'Montserrat', sans-serif; border-radius: 10px; background: #7681b6; color: #fff; text-transform: uppercase; transition: .5s;  font-family: 'Montserrat', sans-serif;}
 .cont3 .port figcaption span a:hover {box-shadow: inset 250px 0 rgba(0,0,0,0.2);}
 
 .cont3 .port .port1 {opacity: 0; transform: translateX(-300px); transition: .5s;}
@@ -352,7 +352,7 @@ transform-origin: 90% 50%;
 
 /* 컨텐츠 영역4 */
 .cont4 {position: relative; width: 100%; margin: 0 auto; padding: 15vw; text-align: center; box-sizing:border-box; transition: .3s;}
-.cont4 h2 {font-size: 4vw; color: #7681b6; font-weight: 500;}
+.cont4 h2 {font-family: 'Montserrat', sans-serif; font-size: 4vw; color: #7681b6; font-weight: 500;}
 .cont4 h2 em {font-size: 5vw; font-family: 'PyeongChangPeace-Bold'; color: #45e0ba;}
 .cont4 .port {padding: 5vw 2vw 0 2vw; margin: 0 auto; box-sizing: border-box;}
 .cont4 .port figure:first-child {width: 100%;}
