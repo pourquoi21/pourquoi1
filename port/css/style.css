@@ -10,8 +10,8 @@ body {position: relative; background: #fff;}
 #footer {position: relative; background: #edeff9; border-top: 1px solid #7681b6; width: 100%; height: 70px; padding: 0 28px; box-sizing: border-box;}
 
 /* top */
-.top {display: none;}
-.top a {position: fixed; bottom: 4vw; right: 4vw; display: inline-block; padding: 1.5vw 1.2vw; border-radius: 50%; background: #7681b6; color: #fff; font-size: 1.3vw; z-index: 20;}
+.top {display: none; text-align: center;}
+.top a {position: fixed; bottom: 4vw; right: 4vw; display: inline-block; width: 85px; height: 85px; padding: 24px 0 25px 0; box-sizing: border-box; border-radius: 50%; background: #7681b6; color: #fff; font-size: 22px; z-index: 10;}
 
 /* loading */
 .loading_back {
@@ -406,6 +406,7 @@ transform-origin: 90% 50%;
 }
 
 @media (max-width: 768px){
+    .top a {width: 70px; height: 70px; padding: 20px 0 25px 0; font-size: 20px;}
     .cont1 div:nth-child(3) {font-size: 2vw;}
     .cont3 .port > div {height: 55vw;}
     .cont3 .port > div > div {float: none; width: 100%; padding: 0 7vw;}
@@ -421,6 +422,7 @@ transform-origin: 90% 50%;
 }
 
 @media (max-width: 480px){
+   .top a {width: 50px; height: 50px; padding: 12px 0 20px 0; font-size: 18px;}
    .cont2 .main_text .desc p {font-size: 3.2vw;}
    .cont3 .port figcaption {font-size: 2.8vw;}
    .cont3 .port figcaption span a {font-size: 2.8vw;}
