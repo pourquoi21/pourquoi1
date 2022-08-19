@@ -421,5 +421,8 @@ transform-origin: 90% 50%;
 }
 
 @media (max-width: 480px){
+  .cont2 .main_text .desc p {font-size: 2vw;}
+  .cont3 .port > div > div > p {font-size: 2vw;}
+  .cont3 .port > div > div > span a {font-size: 2vw;}
 }
 
