@@ -262,8 +262,10 @@
             let scrollTop = $(window).scrollTop();
             if(scrollTop >= $(".cont2 .main_text .desc").offset().top - $(window).height()/2){
                 $(".cont2 .main_text .desc").addClass("show")
+                $("#loading").css("display","none");
             } else {
                 $(".cont2 .main_text .desc").removeClass("show")
+                $("#loading").css("display","none");
             };
         });
         
