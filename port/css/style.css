@@ -358,10 +358,10 @@ transform-origin: 90% 50%;
 .cont4 .port figure:first-child {width: 100%;}
 .cont4 .port figure {float: left; width: 50%; padding: 1vw; box-sizing: border-box; opacity: 0; transition: .5s;}
 .cont4 .port.show .de1 {opacity: 1;}
-.cont4 .port.show .de2 {opacity: 1; transition-delay: .8s}
-.cont4 .port.show .de3 {opacity: 1; transition-delay: 1.5s}
-.cont4 .port.show .de4 {opacity: 1; transition-delay: 2s}
-.cont4 .port.show .de5 {opacity: 1; transition-delay: 2.5s}
+.cont4 .port.show .de2 {opacity: 1; transition-delay: 1.5s}
+.cont4 .port.show .de3 {opacity: 1; transition-delay: 3s}
+.cont4 .port.show .de4 {opacity: 1; transition-delay: 4.5s}
+.cont4 .port.show .de5 {opacity: 1; transition-delay: 6s}
 
 
 /* 푸터 영역 */
