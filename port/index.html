@@ -261,12 +261,6 @@
                     $(".cont2 .main_text .desc").removeClass("show")
                         };
                 });
-                });
-                
-                $(window).on('load', function () {
-            $(".loading_icon").show(0).delay(1600).fadeOut(500,
-                function(){
-                $(".loading_back").stop(2000).removeClass('show');
                 $(window).scroll(function(){
                      $("#loading").hide();
                     let scroll = ($(window).scrollTop())*0.5;
@@ -281,6 +275,7 @@
                 
             });
      });
+
 
         
         $(window).scroll(function(){
