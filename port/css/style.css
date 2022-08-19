@@ -388,6 +388,8 @@ transform-origin: 90% 50%;
 
 @media (max-width: 1024px){
     .cont1 div:nth-child(3) {font-size: 1.5vw;}
+  
+   .cont3 .port > div > div > p {font-size: 2.2vw;}
 }
 
 @media (max-width: 960px){
@@ -419,9 +421,10 @@ transform-origin: 90% 50%;
     .cont3 .port figure figcaption span {display: block;}
   
     .cont2 .main_text .desc p {font-size: 2.5vw; line-height: 5vw;}
-    
-    .cont3 .port > div > div > p {font-size: 2.5vw;}
-    .cont3 .port > div > div > p {font-size: 2vw;}   
+    .cont3 .port figure figcaption {font-size: 2.5vw;}
+    .cont3 .port figure figcaption span a {font-size: 2vw;}
+
+
 }
 
 @media (max-width: 600px){
