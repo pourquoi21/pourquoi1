@@ -390,6 +390,7 @@ transform-origin: 90% 50%;
 @media (max-width: 1024px){
     .cont1 div:nth-child(3) {font-size: 1.5vw;}
     .cont3 .port > div > div > p {font-size: 1.8vw;}
+    .cont2 .main_text .desc p {font-size: 1.8vw;}
 }
 
 @media (max-width: 960px){
