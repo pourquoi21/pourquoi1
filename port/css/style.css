@@ -412,8 +412,9 @@ transform-origin: 90% 50%;
     .cont3 .port > div > div {float: none; width: 100%; padding: 0 7vw;}
     .cont3 .port > div > div.port_desc {display: none;}
     
-    .cont3 .port figcaption {display: block; text-align: center;}
-    .cont3 .port figcaption span {display: block;}
+    .cont3 .port > div {height: 40vw;}
+    .cont3 .port figure figcaption {display: block; text-align: center;}
+    .cont3 .port figure figcaption span {display: block;}
     
 }
 
@@ -424,7 +425,8 @@ transform-origin: 90% 50%;
 @media (max-width: 480px){
    .top a {width: 50px; height: 50px; padding: 12px 0 20px 0; font-size: 18px;}
    .cont2 .main_text .desc p {font-size: 3.2vw;}
-   .cont3 .port figcaption {font-size: 2.8vw;}
-   .cont3 .port figcaption span a {font-size: 2.8vw;}
+   .cont3 .port > div {height: 45vw;}
+   .cont3 .port figure figcaption {font-size: 2.8vw;}
+   .cont3 .port figure figcaption span a {font-size: 2.8vw;}
 }
 
