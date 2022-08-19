@@ -417,14 +417,10 @@ transform-origin: 90% 50%;
     .cont3 .port > div > div {float: none; width: 100%; padding: 0 7vw;}
     .cont3 .port > div > div.port_desc {display: none;}
     
-    .cont3 .port figure figcaption {display: block; text-align: center;}
-    .cont3 .port figure figcaption span {display: block;}
+    .cont3 .port figure figcaption {display: block; font-size: 2.5vw; text-align: center;}
+    .cont3 .port figure figcaption span {display: block; font-size: 2vw;}
   
     .cont2 .main_text .desc p {font-size: 2.5vw; line-height: 5vw;}
-    .cont3 .port figure figcaption {font-size: 2.5vw;}
-    .cont3 .port figure figcaption span a {font-size: 2vw;}
-
-
 }
 
 @media (max-width: 600px){
