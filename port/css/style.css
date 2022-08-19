@@ -383,7 +383,7 @@ transform-origin: 90% 50%;
     .cont1 .main_text span.mov_left {font-size: 6vw; margin: 0 0 0 70vw;}
     .cont1 .main_text span:first-child {font-size: 8vw;}
     .cont1 .main_text span em {font-size: 8vw;}
-
+  .cont2 .main_text .desc p {font-size: 1.7vw;}
     .cont3 .port > div > div > p {font-size: 1.7vw;}
     .cont1 div:nth-child(3) {font-size: 1.4vw;}
 }
