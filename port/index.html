@@ -246,28 +246,36 @@
     <script src="js/ie-checker.js"></script>
     <script src="https://kit.fontawesome.com/d594598f60.js" crossorigin="anonymous"></script>
     <script>
-        //로딩 애니메이션
+        //로딩 애니메이션+스크롤애니메이션
          $(window).on('load', function () {
             $(".loading_icon").show(0).delay(1600).fadeOut(500,
                 function(){
-                 $(".loading_back").stop(2000).removeClass('show');
-                $("#header").css("z-index","30");   
+                $(".loading_back").stop(2000).removeClass('show');
+                    $(window).scroll(function(){
+                    $("#loading").hide();
+                    let scroll = ($(window).scrollTop())*0.5;
+                    let scrollTop = $(window).scrollTop();
+                    if(scrollTop >= $(".cont2 .main_text .desc").offset().top - $(window).height()/1.5){
+                     $(".cont2 .main_text .desc").addClass("show")
+                    } else {
+                    $(".cont2 .main_text .desc").removeClass("show")
+                        };
+                });
+                $(window).scroll(function(){
+                     $("#loading").hide();
+                    let scroll = ($(window).scrollTop())*0.5;
+                    let scrollTop = $(window).scrollTop();
+                    if(scrollTop >= $(".cont3 .port .port1").offset().top - $(window).height()/1.5){
+                        $(".cont3 .port").addClass("show")
+                    } else {
+                        $(".cont3 .port").removeClass("show")
+                        };
+                    
+                });
+                
             });
      });
-        
 
-        //자기소개 애니메이션
-        $(window).scroll(function(){
-            let scroll = ($(window).scrollTop())*0.5;
-            let scrollTop = $(window).scrollTop();
-            if(scrollTop >= $(".cont2 .main_text .desc").offset().top - $(window).height()/2){
-                $(".cont2 .main_text .desc").addClass("show")
-                $("#loading").css("display","none");
-            } else {
-                $(".cont2 .main_text .desc").removeClass("show")
-                $("#loading").css("display","none");
-            };
-        });
         
         $(window).scroll(function(){
             let scroll = ($(window).scrollTop())*0.5;
