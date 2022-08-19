@@ -369,7 +369,7 @@ transform-origin: 90% 50%;
 .footer_text {padding: 15px 0 0 0;}
 .footer_text svg {display: inline-block; width: 25px; height: 25px; fill: #7681b6;}
 .footer_text h1 {display: inline-block; font-family: 'Montserrat', sans-serif; font-size: 18px; font-weight: 500; color: #7681b6; line-height: 50px;}
-.footer_text address {float: right; padding: 20px 0 0; color: #7681b6;}
+.footer_text address {float: right; padding: 20px 0 0; color: #7681b6; font-family: 'Montserrat', sans-serif;}
 
 
 
