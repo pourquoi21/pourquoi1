@@ -89,7 +89,7 @@ body {position: relative; background: #fff;}
   transition-delay: 0.45s;
 }
 .loading_back .bar:nth-of-type(10) {
-  left: 89.1vw;
+  left: 89.5vw;
   background: #fff7f9;
   transition-delay: 0.5s;
 }
