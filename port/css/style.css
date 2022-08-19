@@ -383,13 +383,13 @@ transform-origin: 90% 50%;
     .cont1 .main_text span:first-child {font-size: 8vw;}
     .cont1 .main_text span em {font-size: 8vw;}
 
+    .cont3 .port > div > div > p {font-size: 1.7vw;}
     .cont1 div:nth-child(3) {font-size: 1.4vw;}
 }
 
 @media (max-width: 1024px){
     .cont1 div:nth-child(3) {font-size: 1.5vw;}
-  
-   .cont3 .port > div > div > p {font-size: 2.2vw;}
+    .cont3 .port > div > div > p {font-size: 1.8vw;}
 }
 
 @media (max-width: 960px){
@@ -407,7 +407,6 @@ transform-origin: 90% 50%;
     .cont2 .main_text .desc p {font-size: 2vw;}
     .cont3 .port > div {height: 35vw;}
     .cont3 .port > div > div > p {font-size: 2vw;}
-    .cont3 .port > div > div > p {font-size: 1.8vw;}
 }
 
 @media (max-width: 768px){
