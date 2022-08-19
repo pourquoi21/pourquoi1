@@ -433,7 +433,7 @@ transform-origin: 90% 50%;
 
 @media (max-width: 480px){
    .top a {width: 50px; height: 50px; padding: 12px 0 20px 0; font-size: 18px;}
-   .cont2 .main_text .desc p {font-size: 3.2vw;}
+   .cont2 .main_text .desc p {font-size: 3.2vw; line-height: 5.3vw;}
    .cont3 .port > div {height: 65vw;}
    .cont3 .port figure figcaption {font-size: 2.8vw;}
    .cont3 .port figure figcaption span a {font-size: 2.8vw;}
